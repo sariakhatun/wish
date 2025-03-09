@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Confetti Canvas -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- Birthday Card -->
+  <div class="card" onclick="flipCard()">
+    <div class="card-inner" id="cardInner">
+      <div class="card-front">
+        <h1>🎉 Happy Birthday 🎉</h1>
+        <p>Click or Tap to reveal your message</p>
+      </div>
+      <div class="card-back">
+        <h2>Dear Special One 💖</h2>
+        <p>Wishing you a day filled with joy, laughter, and sweet surprises.</p>
+        <p class="signature">— Lots of Love 💌</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
